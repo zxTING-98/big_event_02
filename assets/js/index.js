@@ -5,7 +5,7 @@ $(function () {
 
     // 退出
     let layer = layui.layer;
-    console.log(layer);
+    // console.log(layer);
     $('#btnLogout').on('click', function () {
         layer.confirm('确定退出登录', { icon: 3, title: '提示' }, function (index) {
             layer.close(index);
